@@ -20,7 +20,7 @@ This tool is not **owned by, operated by, affiliated with, authorized by, or end
 # Sidebar for API key input
 st.sidebar.header("Configuration")
 api_key = st.sidebar.text_input(
-    "Enter your Google Gemini API Key:",
+    "Enter your Key:",
     type="password",
     help="Your API key will not be stored or shared."
 )
