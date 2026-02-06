@@ -12,8 +12,9 @@ st.set_page_config(
 # Add title and description
 st.title("🏭 ISIC Classification Tool")
 st.markdown("""
-This tool uses Google's Gemini AI to identify the **International Standard Industrial Classification (ISIC)** 
-of All Economic Activities for your company, as maintained by the United Nations Statistics Division (UNSD).
+**Disclaimer:**
+This tool is provided only to help Reporting Institutions in data preparation and checking.
+This tool is not **owned by, operated by, affiliated with, authorized by, or endorsed by** the **State Bank of Pakistan (SBP)**.
 """)
 
 # Sidebar for API key input
@@ -108,8 +109,8 @@ Please provide:
 # Footer
 st.markdown("---")
 st.markdown("""
-<div style='text-align: center; color: gray; font-size: 12px;'>
-    <p>ISIC Classification Tool | Powered by Google Gemini AI</p>
+<div style='text-align: center; color: gray; font-size: 15px;'>
+    <p>ISIC Classification Tool | Developed by Statistics and Data Services Department </p>
     <p>For more information about ISIC, visit: <a href='https://unstats.un.org/unsd/classifications/Econ'>UNSD Classifications</a></p>
 </div>
 """, unsafe_allow_html=True)
