@@ -24,7 +24,7 @@ api_key = st.sidebar.text_input(
     type="password",
     help="Your API key will not be stored or shared."
 )
-st.sidebar.write("Please generate your own API Key:---Go to Google AI Studio")
+st.sidebar.write("Please generate your own API Key:"---"Go to Google AI Studio")
 st.sidebar.markdown("🔗 [Visit Google AI Studio](https://aistudio.google.com)")
 
 # Main content area
